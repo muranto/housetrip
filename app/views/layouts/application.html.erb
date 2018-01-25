@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mypro</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  </head>
+
+<body>
+    <header>
+
+
+      <a href="/home/top"><div class="logo"><b>m<span>ic</span>t<span>a</span>c</b></div></a>
+
+
+
+<div class ="mokuji">
+      <ul class ="mokuji1">
+        <a href ="/home/about"><li><span>a</span>bout</li></a>
+        <a href ="/home/movie"><li>wo<span>r</span>k</li></a>
+      </ul>
+      <ul class ="mokuji2">
+        <li>ca<span>re</span>er</li>
+        <li>cont<span>ac</span>t</li>
+      </ul>
+
+</div>
+
+    </header>
+
+  <br> <%= yield %>
+
+<footer>
+
+          <div class ="manato">
+            <a href="https://www.facebook.com/profile.php?id=100011526040485" class="btn facebook">
+              <span class="fa fa-facebook-square"></span>
+            </a>
+        <br><a href="https://twitter.com/greatlove1225" class="btn twitter">
+              <span class="fa fa-twitter-square"></span>
+            </a>
+        <br><a href="https://www.instagram.com/morimori_site/?hl=ja" class="btn instagram">
+              <span class="fa fa-instagram">_</span>
+            </a>
+
+        </div>
+
+</div>
+</footer>
+  </body>
+</html>

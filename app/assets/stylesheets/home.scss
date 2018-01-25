@@ -1,0 +1,195 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+header{
+  width: 100%;
+  position:  fixed;
+  top: 0;
+}
+ul{
+  list-style: none;
+  text-align: center;
+}
+
+
+.mokuji{
+  font: 100 15vh "Comic Sans MS";
+  font-size: 30px;
+  opacity: 0.9;
+
+  margin-top: -20px;
+}
+.mokuji1 li{
+  width: 20%;
+  float: left;
+}
+.mokuji1 a:hover{
+  color: #100593;
+}
+.mokuji2 li{
+  width: 10%;
+  float: right;
+margin-right: 10%;
+}
+@import url(//fonts.googleapis.com/css?family=Vibur);
+
+
+.logo {
+  text-align: center;
+  font-size: 5px;
+  margin: auto;
+
+  margin-top: 0;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 40px;
+  padding-top: 0;
+}
+
+.logo b{
+  font: 100 15vh "Vibur";
+  font-size: 50px;
+  color: #1d1d1d;
+text-shadow: 0 0px 100px, 0 0 2px, 0 0 1em #a6a6a6, 0 0 0.5em #a6a6a6, 0 0 0.1em #a6a6a6, 0 10px 3px #000;
+}
+.logo b:hover{
+  color: #100593;
+  text-shadow: 0 0px 100px, 0 0 2px, 0 0 1em #453da1, 0 0 0.5em #453da1, 0 0 0.1em #453da1, 0 10px 3px #000;
+}
+.logo b span{
+  animation: blink linear infinite 2s;
+}
+.mokuji li span{animation: blink linear infinite 2s;}
+@keyframes blink {
+  78% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  79%{
+     color: rgba(#000000, 0.25);
+  }
+  80% {
+
+    text-shadow: none;
+  }
+  81% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  82% {
+    color: rgba(#000000, 0.25);
+    text-shadow: none;
+  }
+  83% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  92% {
+    color: rgba(#000000, 0.25);
+    text-shadow: none;
+  }
+  92.5% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+}
+
+
+
+.wasshoi {
+  padding: 40px;
+  text-align: center;
+}
+
+.opi h1 {
+  padding: 10px 10px;
+  text-align: center;
+  font-size: 90px;
+  font-family: arial;
+  letter-spacing: 4px;
+}
+
+.opi p {
+  padding-bottom: 80px;
+  text-align:center;
+  font-size: 25px;
+  font-family: serif;
+  color: #656363;
+}
+.kento{
+  margin-top: 100px;
+}
+
+
+.manato{
+
+  color: black;
+  display: block;
+  float: right;
+  font-size: 50px;
+}
+.wasshoingo {
+  padding: 40px;
+  text-align: center;
+
+}
+
+.oppai h1 {
+  padding-left: 25%;
+  padding-right: 25%;
+  font-size: 50px;
+  font-family: arial;
+  letter-spacing: 2px;
+
+}
+
+.oppai p {
+  padding-left: 25%;
+  padding-right: 25%;
+  font-size: 20px;
+  font-family: serif;
+  color: #696969;
+
+}
+.oppai h5 {
+  padding-left: 26%;
+  padding-right: 26%;
+  font-size: 15px;
+  font-family: arial;
+  letter-spacing: 3px;
+  color: #708090;
+}
+
+.oppai h6 {
+  padding-bottom: 70px;
+  color: white;
+}
+.taichi{
+  margin-top: 100px;
+}
+a:link{
+  color: black;
+}
+a:visited{
+  color: black;
+}
+.about h1{
+  padding-left: 25%;
+  padding-right: 25%;
+  font-size: 50px;
+  font-family: arial;
+  letter-spacing: 2px;
+}
+
+.about p{
+  padding-left: 25%;
+  padding-right: 25%;
+  font-size: 20px;
+  font-family: serif;
+  color: #696969;
+
+}
